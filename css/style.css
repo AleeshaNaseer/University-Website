@@ -1,0 +1,180 @@
+
+body{ 
+font:15px Arial,sans-serif;
+padding: 0;
+margin: 0;
+background-color:#d8d4a3;
+    border-left: #6D214F 4px solid;
+    border-right: #6D214F 4px solid;
+}
+/*Header section*/
+header{
+    background: #024950;
+    padding: 0;
+    margin-bottom: 10px;
+border: bottom #866bb9 4px solid;
+    
+}
+
+.container{
+   
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color: black;
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+header #branding{
+    
+    float:left;
+   
+}
+header nav
+{
+    float: right;
+}
+header li
+{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    padding-top: 30px;
+}
+header a
+{
+    color:#964734;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+header a:hover
+{
+    color: #964796;;
+    font-weight: 300;
+}
+.change{
+    color:#964796;
+}
+/*showcase*/
+#showcase
+{
+    min-height: 400px;
+    background: url('../img/WhatsApp%20Image%202026-04-04%20at%2012.00.34%20PM.jpeg') no-repeat 0 -400px;
+    text-align: center;
+    color:#003135;
+    padding-top: 100px;
+    
+}
+
+#showcase h1
+{
+    
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+#showcase p{
+    max-width: 600px;
+    
+    line-height: 1.4;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+
+.dark{
+    background: #c2a69f;}
+
+
+#sidebar
+{
+    float:right;
+    width: 30%;
+    margin-right:30px;
+    margin-top: 70px;
+    padding-left: 100px;
+    padding-right: 500px;
+
+    
+}
+
+#main-col
+{
+    float: left;
+    width: 65%;
+    
+}
+
+#services  li
+{
+    list-style: none;
+    
+    border: #cccccc solid 1px;
+    margin-bottom: 2px;
+    background:#1c5e6479;
+}
+.mesg-form
+{
+      width: 90%;
+    padding: 5px;
+}
+.mesg-form input,textarea
+{
+    width: 90%;
+    padding: 5px;
+}
+#sidebar h3
+{
+    text-align: center;
+}
+
+.button
+{
+    background-color:#ffa502; 
+}
+.login-form1
+{
+    width:20%;
+    margin: auto;
+    background-color: aquamarine;
+    
+}
+
+@media(max-width: 768px)
+{
+    header #branding, 
+    header nav,
+    header li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
